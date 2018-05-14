@@ -1,2 +1,5 @@
 Code for Play/Pause button handling based on:  https://stackoverflow.com/questions/39775409/android-change-play-pause-button-icon-when-clicked
 Icon source: https://material.io/tools/icons/?style=baseline
+Code for OnClickListener in MusicAdapter.java based on:  https://jmsliu.com/2444/click-button-in-listview-and-get-item-position.html
+Code for passing data between activities after on click is based on: https://stackoverflow.com/a/44186705/9645654 and https://stackoverflow.com/a/30145642/9645654
+Code for starting Intent from Adapter is based on:  https://stackoverflow.com/a/15941755/9645654

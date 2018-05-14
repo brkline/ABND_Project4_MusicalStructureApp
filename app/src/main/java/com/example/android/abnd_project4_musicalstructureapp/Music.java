@@ -11,6 +11,8 @@ public class Music {
 
     private String mAlbumName;
 
+    private boolean mPlaying;
+
     private ArrayAdapter<String> mNowPlaying;
 
     /* Default Constructor */
@@ -18,6 +20,7 @@ public class Music {
         mSongName = "";
         mArtistName = "";
         mAlbumName = "";
+        mPlaying = false;
     }
 
     /**
@@ -31,6 +34,14 @@ public class Music {
         mSongName = songName;
         mArtistName = artistName;
         mAlbumName = albumName;
+        mPlaying = false;
+    }
+
+    public Music(String songName, String artistName, String albumName, boolean playing) {
+        mSongName = songName;
+        mArtistName = artistName;
+        mAlbumName = albumName;
+        mPlaying = playing;
     }
 
     /**
@@ -48,9 +59,49 @@ public class Music {
     }
 
     /**
-     * Get the name of the Artist
+     * Set the name of the Artist
      */
     public String getAlbum() {
         return mAlbumName;
+    }
+    /**
+     * Set the name of the song
+     */
+    public void setSongName(String songName) {
+        mSongName = songName;
+    }
+
+    /**
+     * Set the name of the Artist
+     */
+    public void setArtist(String artistName) {
+        mArtistName = artistName;
+    }
+
+    /**
+     * Get the name of the Album
+     */
+    public void setAlbum(String albumName)
+    {
+        mAlbumName = albumName;
+
+    }
+    /**
+     * Get the current Play/Pause status
+     */
+    public boolean getPlayingStatus() {
+        return mPlaying;
+    }
+
+    /**
+     * Set the current Play/Pause Status
+     */
+    public void setPlayingStatus(boolean pauseStatus) {
+
+        if (pauseStatus) {
+            mPlaying = true;
+        } else {
+            mPlaying = false;
+        }
     }
 }
