@@ -8,13 +8,14 @@
         android:id="@+id/play_pause_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/baseline_play_circle_filled_white_black_48"/>
+        android:src="@drawable/baseline_play_circle_filled_white_black_48"
+        android:contentDescription=""/>
 
     <Button
         android:id="@+id/details_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/now_playing_button_label"/>
+        android:text="@string/details_button_label" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/music_info_linearLayout"
@@ -37,9 +38,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-
-
     </LinearLayout>
-
 
 </LinearLayout>

@@ -4,7 +4,6 @@
     <string name="artists_label">Artists</string>
     <string name="songs_label">Songs</string>
     <string name="now_playing_label">Now Playing</string>
-    <string name="now_playing_button_label">Details</string>
+    <string name="details_button_label">Details</string>
     <string name="details_activity_label">Details</string>
-    <string name="details_song_name"></string>
 </resources>
