@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class MusicAdapter extends ArrayAdapter<Music> {
 
     private ImageView mCurrentlyPlaying;
-    private int playIcon = R.drawable.baseline_play_circle_filled_white_black_48;
+    private final int playIcon = R.drawable.baseline_play_circle_filled_white_black_48;
     private int currentDrawable = 0;
 
     /**
@@ -50,6 +50,7 @@ public class MusicAdapter extends ArrayAdapter<Music> {
         // Get the Music object located at this position in the list
         final Music currentItem = getItem(position);
 
+        // Set the default image and tag on each item in the list
         final ImageView playPauseButton = listItemView.findViewById(R.id.play_pause_button);
         playPauseButton.setImageResource(R.drawable.baseline_play_circle_filled_white_black_48);
         playPauseButton.setTag(R.drawable.baseline_play_circle_filled_white_black_48);

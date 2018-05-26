@@ -9,6 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="8dp"
+        android:contentDescription="@string/music_item_play_pause_button_contentDescription"
         android:src="@drawable/baseline_play_circle_filled_white_black_48" />
 
     <Button

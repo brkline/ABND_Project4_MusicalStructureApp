@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">ABND_Project4_MusicalStructureApp</string>
-    <string name="albums_label">Albums</string>
-    <string name="artists_label">Artists</string>
-    <string name="songs_label">Songs</string>
-    <string name="now_playing_label">Now Playing</string>
     <string name="details_button_label">Details</string>
     <string name="details_activity_label">Details</string>
     <string name="details_song">Song</string>
     <string name="details_Artist">Artist</string>
     <string name="details_Album">Album</string>
+    <string name="details_imageView_contentDescription">Image</string>
+    <string name="music_item_play_pause_button_contentDescription">Play and Pause Button</string>
 </resources>
