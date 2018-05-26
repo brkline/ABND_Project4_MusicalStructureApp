@@ -3,5 +3,6 @@
     android:id="@+id/music_list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_margin="@dimen/music_list_layout_margin">
 </ListView>

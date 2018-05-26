@@ -108,6 +108,7 @@ public class MusicAdapter extends ArrayAdapter<Music> {
                 detailsIntent.putExtra("SongName", currentItem.getSongName());
                 detailsIntent.putExtra("AlbumName", currentItem.getAlbum());
                 detailsIntent.putExtra("ArtistName", currentItem.getArtist());
+                detailsIntent.putExtra("AlbumArt", currentItem.getAlbumArt());
                 // End attribution
 
                 // Get the current selected item's Drawable
@@ -153,5 +154,7 @@ public class MusicAdapter extends ArrayAdapter<Music> {
         // so that it can be shown in the ListView
         return listItemView;
     }
+
+
 
 }

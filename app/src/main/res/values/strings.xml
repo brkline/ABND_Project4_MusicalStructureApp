@@ -6,4 +6,7 @@
     <string name="now_playing_label">Now Playing</string>
     <string name="details_button_label">Details</string>
     <string name="details_activity_label">Details</string>
+    <string name="details_song">Song</string>
+    <string name="details_Artist">Artist</string>
+    <string name="details_Album">Album</string>
 </resources>

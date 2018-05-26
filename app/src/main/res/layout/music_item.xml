@@ -8,14 +8,18 @@
         android:id="@+id/play_pause_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/baseline_play_circle_filled_white_black_48"
-        android:contentDescription=""/>
+        android:layout_marginRight="8dp"
+        android:src="@drawable/baseline_play_circle_filled_white_black_48" />
 
     <Button
         android:id="@+id/details_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/details_button_label" />
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/details_button_label"
+        android:textColor="@android:color/white" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/music_info_linearLayout"
@@ -26,7 +30,8 @@
         <TextView
             android:id="@+id/song_name_textView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/song_name_textSize" />
 
         <TextView
             android:id="@+id/artist_name_textView"

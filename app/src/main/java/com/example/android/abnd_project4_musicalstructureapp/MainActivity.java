@@ -31,29 +31,47 @@ public class MainActivity extends AppCompatActivity {
 
         final ArrayList<Music> music = new ArrayList<>();
 
-        music.add(new Music("Song1", "Artist1", "Album1"));
-        music.add(new Music("Song2", "Artist2", "Album2"));
-        music.add(new Music("Song3", "Artist3", "Album3"));
-        music.add(new Music("Song4", "Artist4", "Album4"));
-        music.add(new Music("Song5", "Artist5", "Album5"));
-        music.add(new Music("Song6", "Artist6", "Album6"));
-        music.add(new Music("Song7", "Artist7", "Album7"));
-        music.add(new Music("Song8", "Artist8", "Album8"));
-        music.add(new Music("Song9", "Artist9", "Album9"));
-        music.add(new Music("Song10", "Artist10", "Album10"));
-        music.add(new Music("Song11", "Artist11", "Album11"));
-        music.add(new Music("Song12", "Artist12", "Album12"));
-        music.add(new Music("Song13", "Artist13", "Album13"));
-        music.add(new Music("Song14", "Artist14", "Album14"));
-        music.add(new Music("Song15", "Artist15", "Album15"));
-        music.add(new Music("Song16", "Artist16", "Album16"));
-        music.add(new Music("Song17", "Artist17", "Album17"));
-        music.add(new Music("Song18", "Artist18", "Album18"));
-        music.add(new Music("Song19", "Artist19", "Album19"));
-        music.add(new Music("Song20", "Artist20", "Album20"));
-        music.add(new Music("Song21", "Artist21", "Album21"));
-        music.add(new Music("Song22", "Artist22", "Album22"));
-        music.add(new Music("Song23", "Artist23", "Album23"));
+
+        music.add(new Music("Song1", "Artist1", "Album1",
+                "abstractartblur"));
+        music.add(new Music("Song2", "Artist2", "Album2",
+                "acousticamplifierartist"));
+        music.add(new Music("Song3", "Artist3", "Album3",
+                "adultapplauseaudience"));
+        music.add(new Music("Song4", "Artist4", "Album4",
+                "acousticantiqueart"));
+        music.add(new Music("Song5", "Artist5", "Album5",
+                "acousticamplifierartist"));
+        music.add(new Music("Song6", "Artist6", "Album6",
+                "adultapplauseaudience"));
+        music.add(new Music("Song7", "Artist7", "Album7",
+                "abstractartblur"));
+        music.add(new Music("Song8", "Artist8", "Album8",
+                "acousticantiqueart"));
+        music.add(new Music("Song9", "Artist9", "Album9",
+                "acousticamplifierartist"));
+        music.add(new Music("Song10", "Artist10", "Album10",
+                "adultapplauseaudience"));
+        music.add(new Music("Song11", "Artist11", "Album11",
+                "abstractartblur"));
+        music.add(new Music("Song12", "Artist12", "Album12",
+                "acousticantiqueart"));
+        music.add(new Music("Song13", "Artist13", "Album13",
+                "adultapplauseaudience"));
+        music.add(new Music("Song14", "Artist14", "Album14",
+                "acousticamplifierartist"));
+        music.add(new Music("Song15", "Artist15", "Album15",
+                "acousticantiqueart"));
+        music.add(new Music("Song16", "Artist16", "Album16",
+                "abstractartblur"));
+        music.add(new Music("Song17", "Artist17", "Album17",
+                "acousticamplifierartist"));
+        music.add(new Music("Song18", "Artist18", "Album18",
+                "acousticantiqueart"));
+        music.add(new Music("Song19", "Artist19", "Album19",
+                "adultapplauseaudience"));
+        music.add(new Music("Song20", "Artist20", "Album20",
+                "abstractartblur"));
 
         // Create an {@link MusicAdapter}, whose data source is a list of {@link Music}. The
         // adapter knows how to create list items for each item in the list.

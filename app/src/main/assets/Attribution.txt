@@ -3,3 +3,5 @@ Icon source: https://material.io/tools/icons/?style=baseline
 Code for OnClickListener in MusicAdapter.java based on:  https://jmsliu.com/2444/click-button-in-listview-and-get-item-position.html
 Code for passing data between activities after on Details button click is based on: https://stackoverflow.com/a/44186705/9645654 and https://stackoverflow.com/a/30145642/9645654
 Code for starting Intent from Adapter is based on:  https://stackoverflow.com/a/15941755/9645654
+Code for dynamically assigning album art is based on:  https://stackoverflow.com/a/20021447/9645654
+Album art source: https://www.pexels.com.
