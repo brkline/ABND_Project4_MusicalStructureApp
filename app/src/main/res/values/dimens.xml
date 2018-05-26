@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="music_list_layout_margin">16dp</dimen>
+    <dimen name="song_name_textSize">20sp</dimen>
+</resources>
