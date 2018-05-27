@@ -2,4 +2,9 @@
 <resources>
     <dimen name="music_list_layout_margin">16dp</dimen>
     <dimen name="song_name_textSize">20sp</dimen>
+    <dimen name="details_song_list_button_layoutMargin">16dp</dimen>
+    <dimen name="details_artist_textView_textSize">24sp</dimen>
+    <dimen name="details_album_textView_textSize">24sp</dimen>
+    <dimen name="details_song_name_textView_textSize">36sp</dimen>
+    <dimen name="details_linearLayout_padding">16dp</dimen>
 </resources>

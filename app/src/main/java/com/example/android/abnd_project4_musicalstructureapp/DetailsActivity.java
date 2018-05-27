@@ -4,8 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.util.Set;
 
 public class DetailsActivity extends AppCompatActivity {
 
@@ -35,14 +39,28 @@ public class DetailsActivity extends AppCompatActivity {
             setTitle(intent.getStringExtra("ActivityTitle"));
         }
         // End attribution
+
+        // Set an onClickListener so we can return to the Main Activity
+        Button songsButton = findViewById(R.id.song_list_button);
+        songsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context onClickcontext = v.getContext();
+                Intent mainActivityIntent = new Intent(new Intent(onClickcontext, MainActivity.class));
+                onClickcontext.startActivity(mainActivityIntent);
+
+            }
+        });
     }
 
-    // Code below is based on https://stackoverflow.com/a/20021447/9645654
-    /**
-     * Get the Image ID for the drawable
-     */
-    public int getDrawableImageID(String drawable) {
-        return context.getResources().getIdentifier(drawable, "drawable", context.getPackageName());
+
+
+                // Code below is based on https://stackoverflow.com/a/20021447/9645654
+                /**
+                 * Get the Image ID for the drawable
+                 */
+        public int getDrawableImageID (String drawable){
+            return context.getResources().getIdentifier(drawable, "drawable", context.getPackageName());
+        }
+        // End attribution
     }
-    // End attribution
-}

@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="@dimen/details_linearLayout_padding">
 
         <TextView
             android:id="@+id/details_song_name_tv"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:text="@string/details_song"
             android:textAlignment="center"
-            android:textSize="36sp"
+            android:textSize="@dimen/details_song_name_textView_textSize"
             android:textStyle="bold" />
 
         <TextView
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:text="@string/details_Artist"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="@dimen/details_album_textView_textSize"            />
 
         <TextView
             android:id="@+id/details_artist_name_tv"
@@ -42,7 +42,13 @@
             android:layout_height="wrap_content"
             android:text="@string/details_Album"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="@dimen/details_artist_textView_textSize"           />
+        <Button
+            android:id="@+id/song_list_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return to Song List"
+            android:layout_margin="@dimen/details_song_list_button_layoutMargin"/>
 
     </LinearLayout>
 
